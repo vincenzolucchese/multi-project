@@ -1,7 +1,5 @@
 <#import "/spring.ftl" as spring />
-<#-- 
-<#assign security=JspTaglibs["/META-INF/security.tld"] />
--->
+<#assign security=JspTaglibs["http://www.springframework.org/security/tags"]/>
 
 <#macro standardPage title>
 <!doctype html>
