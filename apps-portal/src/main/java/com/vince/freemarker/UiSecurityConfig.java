@@ -12,13 +12,11 @@ public class UiSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        http.antMatcher("/static/**")
-            .authorizeRequests()
-            .antMatchers("/", "/login**", "/home"
-            		, "/about", "/static/**")
-            .permitAll()
-            .anyRequest()
-            .authenticated();
+        http.antMatcher("/**")
+        .authorizeRequests()
+        .antMatchers("/", "/login**", "/bootstrap-4.3.1/**", "/css/**", "/js/**").permitAll()
+        .anyRequest()
+        .authenticated();
     }
 
 }

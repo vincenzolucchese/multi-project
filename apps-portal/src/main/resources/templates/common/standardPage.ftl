@@ -15,9 +15,9 @@
     <title>${title}</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
     <!-- Bootstrap core CSS -->
-	<link href="/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href=<@spring.url '/bootstrap-4.3.1/css/bootstrap.min.css'/> rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="/css/apps-portal.css" rel="stylesheet">
+    <link href=<@spring.url '/css/apps-portal.css'/>
   </head>
   
   <body>

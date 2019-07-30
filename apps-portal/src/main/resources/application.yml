@@ -7,7 +7,7 @@ server:
         name: UISESSION
 security:
   basic:
-    enabled: false
+    enabled: falsez
   oauth2:
     client:
       clientId: SampleClientId
