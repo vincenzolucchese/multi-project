@@ -10,7 +10,9 @@
        <module>ctx-fluent</module>
        <module>sso-auth-server</module>
        <module>sso-ui</module>
-       <module>apps-portal</module>       
+       <module>apps-portal</module>  
+       <module>contract-rest-client</module>
+       <module>contract-rest-service</module>
    </modules>
    
     <properties>
